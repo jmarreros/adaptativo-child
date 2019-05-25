@@ -1,0 +1,381 @@
+/*
+Theme Name:   Adaptativo Child
+Theme URI:    http://misitio.com/twenty-seventeen-child/
+Description:  Child theme para modificaciones varias
+Author:       Jhon Marreros Guzmán
+Author URI:   http://decodecms.com
+Template:     adaptativo
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  adaptativo-child
+*/
+
+body{
+	font-family: "Palanquin", sans-serif;
+	/*background-color:#d4e8eb;*/
+	background-color: #ddefef;
+}
+
+a, a:visited {
+	color:#333;
+}
+
+a:hover, a:active{
+	color:#0075ff;
+}
+
+.section-title{
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #1426b8;
+	font-size:1.5rem;
+	width:100%; text-align:center; 
+	border-bottom: 1px dotted #1426b8; 
+	line-height:0.1em; 
+	margin:10px 0 20px;
+	margin-bottom: 50px;
+}
+
+.section-title span { 
+	background:#fff;
+	padding:0 10px; 
+}
+
+
+.site-main .entry-title a,
+.site-main h1.page-title, 
+.site-main h1.entry-title,
+aside.widget-area .widget-title,
+.pt-cv-title a,
+.header-bottom h1, 
+.header-bottom h2, 
+.header-bottom h3, 
+.header-bottom h4,
+.home-header-bottom h1,
+.home-header-bottom h2,
+.home-header-bottom h3,
+.home-header-bottom h4, 
+.home-header-bottom h4 {
+	font-family: "Palanquin", sans-serif;
+	font-weight: normal;
+	text-shadow: none;
+}
+
+
+body article{
+	font-size:1.1rem;
+}
+
+body .home-header-bottom h3{
+	font-weight: 500;
+}
+
+.main-navigation ul ul li a {
+	font-family: "Palanquin", sans-serif; 
+}
+
+.main-navigation .nav-menu > li > a{
+	text-shadow: none;
+	color:#333;
+}
+
+.main-navigation .nav-menu > li.current-menu-item > a::after, 
+.main-navigation .nav-menu > li.current-menu-parent > a::after{
+	/*border-color:#1426b8;*/
+	border-color:#0075ff;
+}
+
+.main-navigation .nav-menu > li.current-menu-item > a, 
+.main-navigation .nav-menu > li.current-menu-parent > a{
+	color:#0075ff;
+}
+
+
+body .home-header-bottom h1, 
+body .home-header-bottom h2{
+	color:#1426b8;
+}
+
+aside.widget-area ul li a:hover,
+.main-navigation .nav-menu > li > a:hover{
+	color:#0075ff;	
+}
+
+.custom-logo-link img{
+	max-width: 160px;
+}
+
+body .btn.btn-main{
+    background: linear-gradient(to right, #0075ff 2%,#1426b8 100%);
+}
+
+body .btn.btn-main:hover{
+    background: linear-gradient(to right, #1426b8 2%,#0075ff 100%);
+}
+
+.home-header-bottom h1, .home-header-bottom h2{
+	color:#f4651d;
+	text-shadow: 1px 1px 2px #eaf3f8;
+}
+
+.home-header-bottom img{
+	box-shadow: 0 0 20px #aab8c3;
+}
+
+.home-header-bottom h3, 
+.home-header-bottom h4{
+	color:#6e6e6e;
+	text-shadow: none;
+	font-weight: normal;
+}
+
+
+.container-header > .row,
+.container-header .header-top > .row{
+	max-width: 1240px;
+	min-width: 360px;
+	margin:auto;	
+}
+
+
+
+.btn.btn-main{
+	font-family: Helvetica;
+	font-weight: normal;
+	color:white!important;
+	/*background:#f4651d;*/
+	/*background:linear-gradient(to right, #f4651d 2%,#f71045 100%);*/
+	background: #2710c3;
+	display: block;
+	text-shadow: none;
+	max-width: 400px;
+	font-size: 1.3rem;
+	margin:auto;
+	padding:10px 20px;
+	text-transform: uppercase;
+}
+
+footer.site-footer{
+	background-color:#3d3d3d;
+}
+
+
+/* Home articles*/ 
+
+.pt-cv-title a{
+	color:#333;
+	font-size: 1.7rem;
+}
+
+.pt-cv-title a:hover{
+	color:#0075ff;
+}
+
+.pt-cv-readmore.btn-success{
+    color:#fff;
+    background-color:#0075ff;
+    border-radius: 0;
+    padding:8px 16px;
+    border:none;
+}
+
+.pt-cv-readmore.btn-success.active,
+.pt-cv-readmore.btn-success:active{
+	background-color: #333!important;
+}
+
+.pt-cv-readmore.btn-success:hover{
+	background-color:#1426b8;
+	/*background-color:#0075ff;*/
+}
+
+.pt-cv-wrapper .pagination > .active > a:hover,
+.pt-cv-wrapper .pagination > .active > a{
+	background-color: white;
+	color:#333;
+}
+
+.pt-cv-wrapper .pagination > li > a{
+	border-radius: 0!important;
+	color:black;
+}
+
+.pt-cv-wrapper .pagination > li > a:hover{
+	background-color:#1426b8;
+	color:white;
+}
+
+.pt-cv-pagination-wrapper{
+	text-align: right;
+}
+
+
+/* Home position top */
+.home-content-top{	
+	padding:50px 20px 0px;
+	background-color: white;
+}
+
+.home-content-top > .widget{
+	padding:0;
+}
+
+.home .wrap-content .site-content{
+	padding-top:20px;
+}
+
+/*Service*/
+.wpsm_service_b_row{
+	margin:0!important;
+}
+
+#wpsm_service_b_row_67 .wpsm_row .wpsm_serviceBox{
+	border:1px solid #d9eeed;
+	background-color:#e8f2f4!important;
+	padding:25px 15px;
+}
+
+body #wpsm_service_b_row_67 .wpsm_serviceBox .wpsm_read_more,
+body #wpsm_service_b_row_67 .wpsm_serviceBox .wpsm_service-content h3,
+body #wpsm_service_b_row_67 .wpsm_serviceBox .wpsm_service-content p{
+	font-family: "Palanquin", sans-serif!important;
+	font-weight: normal!important;
+	font-size: 1.6rem!important;
+	color:#333!important;
+}
+
+body #wpsm_service_b_row_67 .wpsm_serviceBox .wpsm_service-content h3{
+	margin-top:20px!important;
+	margin-bottom:20px!important;
+}
+
+body #wpsm_service_b_row_67 .wpsm_serviceBox .wpsm_service-content p{
+	font-size: 1.1rem!important;
+	color:#5c5c5c!important;
+}
+
+body #wpsm_service_b_row_67 .wpsm_serviceBox .wpsm_read_more{
+	font-size: 0.9rem!important;
+	padding:8px 16px;
+	margin-top:30px;
+}
+
+body #wpsm_service_b_row_67 .wpsm_serviceBox .wpsm_read_more{
+	background-color: #0075ff!important;
+	border:none!important;
+	color:white!important;
+}
+
+body #wpsm_service_b_row_67 .wpsm_serviceBox .wpsm_read_more:hover{
+	background-color: #1426b8!important;
+}
+
+body #wpsm_service_b_row_67 .wpsm_serviceBox .wpsm_service-icon i{
+	color:#333!important;
+}
+
+aside.widget-area .widget-title::after{
+	background-color: #333;
+	/*background-color: #0075ff;*/
+	/*background-color: #1426b8;*/
+}
+
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"], 
+button, 
+.button{
+	background-color:#0075ff;
+	box-shadow: none;
+}
+
+input[type="button"]:hover, 
+input[type="reset"]:hover, 
+input[type="submit"]:hover, 
+button:hover, 
+.button:hover{
+	background-color:#1426b8;
+	box-shadow: none;
+}
+
+
+body:not(.home) header.site-header{
+	background-image:none!important;
+}
+
+body:not(.home) .header-top{
+	padding-bottom: 20px;
+}
+
+body:not(.home) header.site-header{
+	padding-bottom: 60px;
+}
+
+.site-main .entry-header .comments-link{
+	display: none;
+}
+
+footer.site-footer a:hover,
+.comments-area .comment-form a:hover,
+.site-main .entry-header .author a:hover, 
+.site-main .entry-header .cat-links a:hover,
+.site-main .entry-title a:hover{
+	color:#0075ff;
+}
+
+.single .navigation{
+	display:none;
+}
+.category article{
+	margin-top:40px;
+}
+.category .entry-meta{
+	display: none;
+}
+
+.category .entry-content{
+	margin-top: 10px;
+}
+.category .entry-title{
+	margin-bottom: 10px;
+}
+
+.site-main h2.entry-title,
+.site-main h1.entry-title{
+	line-height: 1.2em;
+}
+
+.kt-inside-inner-col .wp-block-kadence-advancedheading{
+	font-weight: normal;
+	font-size: 1.7rem !important;
+	line-height: 2.1rem !important;
+}
+
+/*.home .kt-row-column-wrap{
+	padding-top:10px!important;
+	padding-bottom: 5px!important;
+	margin-bottom: 70px!important;
+}*/
+
+
+/*body:not(.home) header.site-header{
+	background-color:#eef5f9;
+}
+*/
+/*body:not(.home) header.site-header{
+	background-position: 0px -412px;
+	background-position: middle;
+}
+
+body:not(.home) .header-top{
+	border-bottom: none;
+}
+*/
+/*body{
+	background-image:url('http://sitios/karinchavez/wp-content/themes/Adaptativo/img/background-header.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+}*/
