@@ -105,13 +105,13 @@ body .home-header-bottom h2{
 	max-width: 160px;
 }*/
 
-body .btn.btn-main{
+/*body .btn.btn-main{
     background: linear-gradient(to right, #0075ff 2%,#1426b8 100%);
 }
 
 body .btn.btn-main:hover{
     background: linear-gradient(to right, #1426b8 2%,#0075ff 100%);
-}
+}*/
 /*
 .home-header-bottom h1, .home-header-bottom h2{
 	color:#f4651d;
@@ -138,13 +138,11 @@ body .btn.btn-main:hover{
 }
 */
 
-
-.btn.btn-main{
+/*.btn.btn-main{
 	font-family: Helvetica;
 	font-weight: normal;
 	color:white!important;
-	/*background:#f4651d;*/
-	/*background:linear-gradient(to right, #f4651d 2%,#f71045 100%);*/
+	background:linear-gradient(to right, #f4651d 2%,#f71045 100%);
 	background: #2710c3;
 	display: block;
 	text-shadow: none;
@@ -154,14 +152,14 @@ body .btn.btn-main:hover{
 	padding:10px 20px;
 	text-transform: uppercase;
 }
-
+*/
 /*footer.site-footer{
 	background-color:#3d3d3d;
 }
 */
 
 /* Home articles*/ 
-
+/*
 .pt-cv-title a{
 	color:#333;
 	font-size: 1.7rem;
@@ -186,7 +184,6 @@ body .btn.btn-main:hover{
 
 .pt-cv-readmore.btn-success:hover{
 	background-color:#1426b8;
-	/*background-color:#0075ff;*/
 }
 
 .pt-cv-wrapper .pagination > .active > a:hover,
@@ -208,10 +205,10 @@ body .btn.btn-main:hover{
 .pt-cv-pagination-wrapper{
 	text-align: right;
 }
-
+*/
 
 /* Home position top */
-.home-content-top{	
+/*.home-content-top{	
 	padding:50px 20px 0px;
 	background-color: white;
 }
@@ -223,9 +220,10 @@ body .btn.btn-main:hover{
 .home .wrap-content .site-content{
 	padding-top:20px;
 }
+*/
 
 /*Service*/
-.wpsm_service_b_row{
+/*.wpsm_service_b_row{
 	margin:0!important;
 }
 
@@ -273,14 +271,9 @@ body #wpsm_service_b_row_67 .wpsm_serviceBox .wpsm_read_more:hover{
 body #wpsm_service_b_row_67 .wpsm_serviceBox .wpsm_service-icon i{
 	color:#333!important;
 }
+*/
 
-aside.widget-area .widget-title::after{
-	background-color: #333;
-	/*background-color: #0075ff;*/
-	/*background-color: #1426b8;*/
-}
-
-input[type="button"], 
+/*input[type="button"], 
 input[type="reset"], 
 input[type="submit"], 
 button, 
@@ -297,8 +290,8 @@ button:hover,
 	background-color:#1426b8;
 	box-shadow: none;
 }
-
-
+*/
+/*
 body:not(.home) header.site-header{
 	background-image:none!important;
 }
@@ -313,15 +306,15 @@ body:not(.home) header.site-header{
 
 .site-main .entry-header .comments-link{
 	display: none;
-}
+}*/
 
-footer.site-footer a:hover,
+/*footer.site-footer a:hover,
 .comments-area .comment-form a:hover,
 .site-main .entry-header .author a:hover, 
 .site-main .entry-header .cat-links a:hover,
 .site-main .entry-title a:hover{
 	color:#0075ff;
-}
+}*//*
 
 .single .navigation{
 	display:none;
@@ -343,10 +336,10 @@ footer.site-footer a:hover,
 .site-main h2.entry-title,
 .site-main h1.entry-title{
 	line-height: 1.2em;
-}
+}*/
 
-.kt-inside-inner-col .wp-block-kadence-advancedheading{
+/*.kt-inside-inner-col .wp-block-kadence-advancedheading{
 	font-weight: normal;
 	font-size: 1.7rem !important;
 	line-height: 2.1rem !important;
-}
+}*/

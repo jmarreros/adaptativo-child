@@ -14,11 +14,14 @@ Text Domain:  adaptativo-child
 
 // General vars
 color-principal = #0693e3 // 1426b8
+color-secundario = #1426b8
 fondo-principal = #ddefef
 color-gray = #333
 color-gray2 = #6e6e6e
-color-gray3 = #3d3d3d;
-color-gray4 = #444444;
+color-gray3 = #3d3d3d
+color-gray4 = #444444
+color-danger = #c7555b
+color-success = #398f14
 
 font-principal = "Palanquin", sans-serif
 font-secundaria = "Roboto", sans-serif
@@ -26,7 +29,9 @@ font-auxiliar = "Helvetica", sans-serif
 
 // General
 body
-	background-color: fondo-principal
+	background-color fondo-principal
+	color color-gray2
+	font-family font-secundaria
 
 a, a:visited
 	color color-gray
@@ -35,10 +40,41 @@ a
 	&:hover, &:active
 		color color-principal
 
+.site-main 
+	h2.entry-title,
+	h1.entry-title
+		line-height 1.2em
+
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"], 
+button, 
+.button
+	background-color color-principal
+	box-shadow none
+
+
+input[type="button"]:hover,
+input[type="reset"]:hover, 
+input[type="submit"]:hover, 
+button:hover, 
+.button:hover
+	background-color color-gray4
+	box-shadow none
+
+footer.site-footer a:hover,
+.comments-area .comment-form a:hover,
+.site-main .entry-header .author a:hover, 
+.site-main .entry-header .cat-links a:hover,
+.site-main .entry-title a:hover
+	color color-principal
+	
+.category-blog h1
+	display none
+
 // Logo
 .custom-logo-link img
 	max-width 160px
-
 
 // Navigation
 .main-navigation 
@@ -47,10 +83,10 @@ a
 	.nav-menu 
 		> li > a
 			text-shadow none
-			color color-gray
+			color color-gray2
 		> li.current-menu-item > a, 
 		> li.current-menu-parent > a
-			color color-gray
+			color color-gray2
 		> li.current-menu-item > a::after, 
 		> li.current-menu-parent > a::after
 			border-color color-principal
@@ -116,7 +152,7 @@ body .home-header-bottom
 	font-family font-auxiliar
 	font-weight normal
 	color white!important
-	background-color color-principal
+	background-color color-secundario
 	display block
 	text-shadow none
 	max-width 400px
@@ -125,6 +161,8 @@ body .home-header-bottom
 	padding 10px 20px
 	text-transform uppercase
 
+.btn.btn-main:hover
+	background-color color-gray4
 
 // articles
 body
@@ -143,7 +181,7 @@ body
 	color #fff
 	background-color color-principal
 	border-radius 0
-	padding 8px 16px
+	padding 10px 18px
 	border none
 	&.active, &:active, &:hover
 		background-color color-gray4!important
@@ -154,7 +192,7 @@ body
 .pt-cv-wrapper .pagination 
 	> .active > a:hover, > .active > a
 		background-color white
-		color color-gray
+		color color-gray2
 	> li > a
 		border-radius 0!important
 		color black
@@ -162,15 +200,87 @@ body
 		background-color color-principal
 		color #fff
 
+// Home
+
+.home .wrap-content .site-content
+	padding-top 20px
+
+.home-content-top	
+	padding 50px 20px 0px
+	background-color white
+	> .widget
+		padding 0
+
+body:not(.home) 
+	header.site-header
+		background-image none!important
+	.header-top
+		padding-bottom 20px
+	header.site-header
+		padding-bottom 60px
+
+.site-main .entry-header .comments-link
+	display none
+
 
 
 // Sidebar
 aside 
-	&.widget-area ul li a:hover
-		color color-principal
+	&.widget-area 
+		ul li a:hover
+			color color-principal
+		.widget-title::after
+			background-color color-principal
 
 // Footer
 footer.site-footer
 	background-color color-gray3
 
 
+// Single
+.single .navigation
+	display:none;
+
+
+// Category
+.category 
+	article
+		margin-top 40px
+	.entry-meta
+		display none
+	.entry-content
+		margin-top 10px
+	.entry-title
+		margin-bottom 10px
+
+
+// Kadence
+.wp-block-kadence-rowlayout 
+	.wp-block-kadence-advancedheading
+		font-family font-principal
+		font-weight normal
+		font-size 1.7rem !important
+		line-height 2.1rem !important
+
+.kt-button
+	font-size 14px!important
+	padding 10px 18px
+
+// Contact
+span.wpcf7-not-valid-tip
+	color color-danger
+	
+div.wpcf7-validation-errors, 
+div.wpcf7-acceptance-missing
+	border none
+	color white
+	background-color color-danger
+
+div.wpcf7-mail-sent-ok
+	border none
+	color white
+	background-color color-success
+
+.wpcf7-form-control.wpcf7-submit
+	padding 12px 28px
+	
